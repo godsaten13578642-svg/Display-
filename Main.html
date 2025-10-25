@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display Box Example</title>
+  <style>
+    /* 🟦 Background Settings */
+    body {
+      font-family: Arial, sans-serif;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+
+      /* 🟩 Choose ONE of the following: */
+
+      /* Option 1: Solid background color */
+      background-color: #1e1e1e;
+
+      /* Option 2: Background image (uncomment line below and replace the URL) */
+      /* background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e'); */
+
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .box {
+      background-color: rgba(0, 0, 0, 0.7); /* semi-transparent */
+      padding: 40px;
+      border-radius: 10px;
+      text-align: center;
+      font-size: 1.8em;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+      max-width: 80%;
+      word-wrap: break-word;
+    }
+
+    a {
+      color: #4aa3ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <!-- 🟩 Put whatever you want to display below -->
+    Welcome traveler 🌌 <br>
+    Visit <a href="https://example.com" target="_blank">this site</a> for more info.<br><br>
+    <strong>Here’s a cool background image:</strong><br>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Cat03.jpg" alt="Cat Image">
+    <!-- 🟩 End of editable text -->
+  </div>
+</body>
+</html>
